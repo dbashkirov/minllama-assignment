@@ -1,6 +1,6 @@
 #!/usr/bin/env bash
 
-conda create -n llama_hw python=3.11
+# conda create -n llama_hw python=3.11
 conda activate llama_hw
 
 # Modify this command depending on your system's environment.
@@ -16,4 +16,4 @@ pip install scikit-learn==1.2.2
 pip install numpy==1.26.3
 pip install tokenizers==0.13.3
 pip install sentencepiece==0.1.99
-wget https://www.cs.cmu.edu/~vijayv/stories42M.pt
+# wget https://www.cs.cmu.edu/~vijayv/stories42M.pt
